@@ -1,0 +1,118 @@
+h1 {
+    font-size: 6rem;
+    padding: 0 0 0 0;
+}
+
+.product-container {
+    justify-items: left;
+    padding-left: 4rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.product-card-1 {
+    height: 25rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-top: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: none;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-card-2, .product-card-3 {
+    height: 25rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-top: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-card-4 {
+    height: 25rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-top: none;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: none;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-card-5 {
+    height: 25rem;
+    background-color: transparent;
+    color: black;
+    padding: 1rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-left: none;
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-card-6, .product-card-7, .product-card-8 {
+    height: 25rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.product-card-8 {
+    height: 25rem;
+    background-color: transparent;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: none;
+    border-left: 1px solid rgb(0, 0, 0);
+    border-right: none;
+    border-radius: 0px;
+    text-align: center;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

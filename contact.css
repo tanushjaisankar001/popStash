@@ -1,0 +1,9 @@
+h1 {
+    font-size: 6rem;
+    padding: 0 0 0 0;
+}
+
+.contact-container {
+    justify-items: left;
+    padding-left: 4rem;
+}

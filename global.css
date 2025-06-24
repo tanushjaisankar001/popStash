@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header nav {
+    position: fixed;
+    bottom: 4rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #f8f8f8;
+    padding: 15px 30px;
+    border-top: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 50px;
+}
+
+header nav ul li a {text-decoration: none;
+    color: #333;
+    font-size: 15px;
+    transition: font-weight 0.2s ease;
+}
+
+header nav ul li a:hover {
+    color: #000;;
+}
+
